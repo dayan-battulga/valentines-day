@@ -1,0 +1,16 @@
+.final-page {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden; /* hide anything that goes outside the div */
+    position: relative; /* establish a new positioning context for children */
+}
+
+.final-page img {
+    position: absolute; /* position the image absolutely within the div */
+    min-width: 100%; /* minimum width of 100% */
+    min-height: 100%; /* minimum height of 100% */
+    top: 80%; /* position the top edge halfway down the div */
+    left: 80%; /* position the left edge halfway across the div */
+    transform: translate(-80%, -80%); /* shift the image back up and left by half its height and width */
+    object-fit: cover; /* ensure the image covers the div without distorting its aspect ratio */
+}

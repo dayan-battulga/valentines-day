@@ -1,0 +1,81 @@
+* {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.crossword-container {
+  width: 100%;
+  height: 100%;
+  background-color: #ffe9ec;
+}
+
+.crossword-title {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+}
+
+.crossword-game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    width: 100%;
+    margin-top:140px;
+
+}
+.crossword-grid-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 45%;
+    margin-left: 100px;
+}
+
+.crossword-clues-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 120%;
+    width: 20vw;
+    margin-left: 100px;
+}
+
+.clue {
+    margin: 8px;
+}
+
+.correct {
+    color: green;
+}
+
+.header {
+    font-size: 1.5em;
+}
+
+.check-button {
+    color: green;
+    border: 1px solid black !important;
+    background-color:  #90EE90;
+}
+
+.reset-button {
+    color: red;
+    border: 1px solid black !important;
+    background-color:  #EE9090;
+}
+.fill-button {
+    color: blue;
+    border: 1px solid black !important;
+    background-color:  #9090EE;
+}
+
+.fade-out {
+    transition: opacity 2s ease-in-out 2s; 
+    opacity: 0;
+  }
